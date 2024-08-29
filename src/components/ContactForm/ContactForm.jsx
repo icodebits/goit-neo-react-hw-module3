@@ -66,7 +66,7 @@ const ContactForm = ({ onSubmit }) => {
           </Form>
         )}
       </Formik>
-    );
+    )
 }
 
 export default ContactForm

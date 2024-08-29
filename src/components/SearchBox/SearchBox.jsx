@@ -1,8 +1,8 @@
-import styles from './SearchBox.module.css';
+import styles from './SearchBox.module.css'
 
 const SearchBox = ({ value, onChange }) => {
     const handleInputChange = (event) => {
-        onChange(event.target.value);
+        onChange(event.target.value)
     }
 
     return (
